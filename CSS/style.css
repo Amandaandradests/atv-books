@@ -58,6 +58,14 @@ html {
     margin: 1vw 5vw 1vw 5vw;
 }
 html
+     body a {
+        text-decoration: black;
+        color: black;
+    } 
+    header nav a span {
+        font-weight: bold;
+    }
+
     header nav {
         display: flex;
         justify-content: right ;
@@ -99,7 +107,7 @@ html
     }
     
     section.banner h1 span {
-        color: #47C183;.
+        color: #47C183;
     }
 
     section.banner p {
@@ -117,3 +125,64 @@ html
     section.banner p.view {
         margin: 0 0 2vw 7vw;
     } 
+    .whats h1 {
+        padding: 5vw 10vw 0 35vw;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .view a {
+        color: black;
+    }
+    .whats1 {
+       display: flex; 
+    }
+    .whats1 img {
+            width: 300px;  /* Define a largura da imagem */
+            height: auto;  /* Mantém a proporção original da imagem */
+    }
+    .whats1 p {
+        padding: 8vw 2vw 5vw 2vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .whats2 {
+        display: flex;
+        padding: 0 0 0 20vw; 
+     }
+     .whats2 p {
+        padding: 8vw 2vw 5vw 2vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .whats2 img {
+        width: 300px;  /* Define a largura da imagem */
+        height: auto;  /* Mantém a proporção original da imagem */
+    }
+    .whats3 {
+        display: flex; 
+     }
+    .whats3 p {
+        padding: 8vw 2vw 5vw 2vw;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .whats3 img {
+        width: 300px;  /* Define a largura da imagem */
+        font-family: 'Times New Roman', Times, serif;t: auto;  /* Mantém a proporção original da imagem */
+    }
+    section.experiments {
+        margin: 5vw 5vw 2vw 5vw;
+    }
+    .experiments h2 {
+        padding:5vw 10vw 5vw 26vw;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    .experiments div {
+    display: flex;
+    }
+    .experiments p {
+        padding: 5vw 5vw 5vw 5vw;
+    }
+    .experiments img {
+        width: 500px;  
+        height: auto;
+    }
+    
